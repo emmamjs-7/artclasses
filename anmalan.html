@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Canvas & Palett</h1>
+      <nav>
+        <a href="index.html">Hem</a>
+        <a href="anmalan.html">Anmälan</a>
+        <a href="kurser.html">Kurser</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Anmäl dig här!</h2>
+      <form action="/submit" method="post">
+        <label for="name">Namn:</label>
+        <input type="text" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+        <label for="telephone">Telefonnummer:</label>
+        <input type="text" name="telephone" />
+        <label for="Kurs">Välj kurs:</label>
+        <select name="course" id="course">
+          <option value="select">---välj---</option>
+          <option value="acrylic">Akryl</option>
+          <option value="watercolor">Akvarell</option>
+        </select>
+        <label for="message">Meddelande:</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Skicka in!</button>
+      </form>
+    </div>
+
+    <footer>
+      <a href="http://instagram.com">Instagram</a>
+    </footer>
+  </body>
+</html>
