@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+  
+    align-items: flex-end;
+
+}
+   
+.akryl{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+   
+   
+
+}
+
+.akvarell {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#akvarell{
+    width: 400px;
+}
+
+table{
+   text-align: center;
+    width: 800px;
+
+}
+
+
+th, tr{
+    background-color: #eee;
+}
