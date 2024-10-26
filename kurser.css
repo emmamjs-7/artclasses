@@ -2,44 +2,84 @@ body{
     width: 100%;
 }
 
-section {
+
+
+.akryl-flexbox {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+  flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(159, 148, 148);
+
+}
+   
+.akryl, .akvarell{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: 30px;
   
-    align-items: flex-end;
+   
+   
 
 }
-   
-.akryl{
-    margin: 30px;
+
+
+.akvarell-flexbox {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-   
-   
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   width: 100%;
+    background-color: darkgrey;
+
 
 }
 
-.akvarell {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+
+
+.akvarell a, .akryl a{
+   background-color: white;
+   color: rgb(111, 19, 37);
+   border: 1px solid white;
+   width: 120px;
+   text-align: center;
+   border-radius: 30px;
 }
 
-#akvarell{
-    width: 400px;
+a:hover {
+    color: rgba(111, 19, 37, 0.307);
 }
 
 table{
    text-align: center;
     width: 800px;
+    margin: 20px;
 
 }
 
 
 th, tr{
-    background-color: #eee;
+    background-color: white;
+}
+
+@media screen and (max-width: 500px){
+
+    
+.akryl, .akvarell{
+
+    align-items: center;
+    text-align: center;
+}
+.akryl img, .akvarell img {
+    
+    width: 100%; /* Gör bilden bredare på små skärmar */
+    max-width: 400px;
+}
+table {
+    max-width: 400px;
+}
+
+    
 }
