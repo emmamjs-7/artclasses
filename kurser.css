@@ -1,39 +1,46 @@
-body{
-    width: 100%;
-}
+img {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 30px;
+  object-fit:contain;
 
+}
 
 
 .akryl-flexbox {
     display: flex;
-    justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
-    width: 100%;
-    background-color: rgb(159, 148, 148);
+ width: 100%;
+    background-color: rgb(167, 160, 180);
+    border: 1px solid black;
 
 }
    
+
+
+.akvarell-flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+   width: 100%;
+    background-color: rgb(196, 190, 190);
+    border: 1px solid black;
+
+
+}
+
 .akryl, .akvarell{
     
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 800px;
-    margin: 30px;
-  
-   
-   
-
-}
-
-
-.akvarell-flexbox {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-   width: 100%;
-    background-color: darkgrey;
-
+    margin: 30px;   
 
 }
 
@@ -58,7 +65,13 @@ table{
     margin: 20px;
 
 }
-
+ .table{
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(114, 114, 154);
+ }
 
 th, tr{
     background-color: white;
@@ -78,7 +91,7 @@ th, tr{
     max-width: 400px;
 }
 table {
-    max-width: 400px;
+    max-width: 380px;
 }
 
     
