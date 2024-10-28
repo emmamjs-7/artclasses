@@ -12,6 +12,7 @@
     ></script>
     <title>Anmalan</title>
   </head>
+
   <body>
     <header>
       <h1>Canvas & Palett</h1>
@@ -21,17 +22,30 @@
         <a href="kurser.html">Kurser</a>
       </nav>
     </header>
+
     <section class="anmalan">
       <div class="container">
         <h2>Anmäl dig här!</h2>
         <form action="submitpage.html" method="get">
           <label for="name">Namn:</label>
-          <input type="text" placeholder="För och efternamn" required /> <br />
+          <input
+            type="text"
+            id="name"
+            placeholder="För och efternamn"
+            required
+          />
+          <br />
           <label for="email">Email:</label>
-          <input type="email" placeholder="exempel@gmail.com" required /> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="exempel@gmail.com"
+            required
+          />
+          <br />
           <label for="telephone">Telefonnummer:</label>
-          <input type="text" placeholder="0712345678" /> <br />
-          <label for="Kurs">Välj kurs:</label>
+          <input type="text" id="telephone" placeholder="0712345678" /> <br />
+          <label for="course">Välj kurs:</label>
           <select name="course" id="course">
             <option value="select">välj</option>
             <option value="acrylic">Akryl</option>
@@ -44,8 +58,9 @@
         </form>
       </div>
     </section>
+
     <footer>
-      <section id="contact">
+      <div id="contact">
         <ul>
           <li>
             <a href="http://instagram.com" target="_blank">
@@ -55,15 +70,14 @@
           <li><a href="tel:+46712345678">Telefonnummer: 0712345678</a></li>
           <li><a href="mailto:canvas@palett.se">Email:canvas@palett.se</a></li>
         </ul>
-      </section>
-      <section class="address">
+      </div>
+      <div class="address">
         <address>
-          <h4>Kontakt</h4>
           <p>Växthusvägen 1</p>
           <p>614 92</p>
           <p>Söderköping</p>
         </address>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
