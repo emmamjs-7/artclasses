@@ -2,9 +2,8 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eee;
-   
-  
 }
+
 
 header{
     width: 90%;
@@ -16,69 +15,69 @@ header{
     justify-content: space-around;
 }
 
+
 h2, h3, a {
     color: rgb(111, 19, 37);
 }
 
+
  a {
-    color: rgb(111, 19, 37);
-    text-decoration: none;
+   color: rgb(111, 19, 37);
+   text-decoration: none;
    padding: 15px;
    margin: 8px;
-    text-align: end;
+   text-align: end;
 }
 
+
 a:hover {
-    color:rgba(111, 19, 37, 0.307) ;
+   color:rgba(111, 19, 37, 0.307) ;
 }
 
 a:active{
-    color: rgb(238, 232, 232);
-    transition: 2s;
+   color: rgb(238, 232, 232);
+   transition: 2s;
 }
+
 
 img {
     width: 300px;
 }
 
-#contact{
-    display: flex;
-   align-items: flex-start;
-    text-align: start;
-    flex-direction: column;
-    margin: 20px;
-    height: 80px;
-    
 
+#contact{
+   display: flex;
+   align-items: flex-start;
+   text-align: start;
+   flex-direction: column;
+   margin: 20px;
+   height: 80px;  
 }
+
 
 .address{
-    display:flex;
-text-align: start;
+   display:flex;
+   text-align: start;
    justify-content: flex-end;
-   height: 80px;
-   
+   height: 80px;  
+   margin: 20px;
 }
+
 
 footer{
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    
-
-    
 }
+
+
 footer, ul, li {
-   
     color: rgb(90, 24, 24);;
     text-decoration: none;
     padding: 10px;
     list-style-type: none;
-   
-    
 }
-
 
 
 @media screen and (max-width: 500px){
@@ -86,24 +85,19 @@ footer, ul, li {
     header {
         flex-direction: column;
         margin: 0;
-        margin-bottom: 10px;
-        
-        
+        margin-bottom: 10px;  
     }
+
     footer{
         max-width: 350px;
         text-align:  center;
         flex-direction:column ;
         align-items: center;
         align-content: space-between;
-        
     }
+
     footer ul {
         margin: 0px;
         padding: 0px;
     }
-   
-
-
-    
 }
