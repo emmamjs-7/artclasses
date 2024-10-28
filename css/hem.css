@@ -6,10 +6,10 @@
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
    
 }
+
 
 .container {
     display: flex;
@@ -25,11 +25,12 @@
     border:1px solid black;;
 }
 
+
 .info {
     width: 800px;
   
-
 }
+
 
 .link-container {
     display: flex;
@@ -37,21 +38,22 @@
     text-align: center;
     justify-content: space-around;
     width: 100%;
-padding: 50px;
-    
+    padding: 50px;
 }
+
+
 .link-container img {
     height: 300px;
     border-radius: 10px;
 }
+
 
 @media screen and (max-width: 500px){
 
  .img-section{
     max-width: 350px;
     max-height: 400px;
-
-  margin: 25px;
+    margin: 25px;
  }
 
  .container{
@@ -66,8 +68,6 @@ padding: 50px;
     align-items: center;
     padding: 0px;
     margin: 8px;
-
-
     
 }
 }
