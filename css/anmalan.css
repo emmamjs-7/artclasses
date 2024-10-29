@@ -40,6 +40,10 @@ input, textarea, #course{
     align-content: center;
 }
 
+input:focus, textarea:focus, select:focus{
+    background-color: #eee;
+    outline: none;
+}
 
 button {
     margin: 5px;
