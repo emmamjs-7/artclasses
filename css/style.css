@@ -90,8 +90,8 @@ footer, ul, li {
 
     footer{
         max-width: 350px;
-        text-align:  center;
-        flex-direction:column ;
+        text-align: center;
+        flex-direction:column-reverse ;
         align-items: center;
         align-content: space-between;
     }
