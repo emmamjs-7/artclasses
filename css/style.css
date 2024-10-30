@@ -23,6 +23,7 @@ a {
 }
 
 
+
 a {
     color: rgb(111, 19, 37);
     text-decoration: none;
@@ -63,6 +64,7 @@ img {
     justify-content: center;
     height: 80px;
     margin: 20px;
+    color: rgb(90, 24, 24);
 }
 
 iframe {
@@ -84,11 +86,9 @@ footer {
 }
 
 
-footer,
-ul,
-li {
+
+footer ul li {
     color: rgb(90, 24, 24);
-    ;
     text-decoration: none;
     padding: 10px;
     list-style-type: none;
