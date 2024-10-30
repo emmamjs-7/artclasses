@@ -1,22 +1,26 @@
 img {
-   width: 350px;
-   height: 350px;
-   margin: 20px;
-   border-radius: 30px;
-   object-fit:contain;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+
+h3 {
+    font-style: italic;
 }
 
 
 .akryl-flexbox {
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
-   flex-wrap: wrap;
-   width: 100%;
-   background-color: rgb(167, 160, 180);
-   border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(167, 160, 180);
+    border: 1px solid black;
 }
-   
+
 
 
 .akvarell-flexbox {
@@ -31,22 +35,24 @@ img {
 }
 
 
-.akryl, .akvarell{
-   display: flex;
-   align-items: flex-start;
-   flex-direction: column;
-   width: 800px;
-   margin: 30px;   
+.akryl,
+.akvarell {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: 30px;
 }
 
 
-.akvarell a, .akryl a{
-   background-color: white;
-   color: rgb(111, 19, 37);
-   border: 1px solid black;
-   width: 120px;
-   text-align: center;
-   border-radius: 30px;
+.akvarell a,
+.akryl a {
+    background-color: white;
+    color: rgb(111, 19, 37);
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    border-radius: 30px;
 }
 
 
@@ -55,41 +61,44 @@ a:hover {
 }
 
 
-table{
-   text-align: center;
-   width: 800px;
-   margin: 20px;
+table {
+    text-align: center;
+    width: 800px;
+    margin: 20px;
 }
 
 
- .table{
+.table {
     width: 100%;
     border: 1px solid black;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(114, 114, 154);
- }
+}
 
 
-th, tr{
+th,
+tr {
     background-color: white;
 }
 
 
 
-@media screen and (max-width: 500px){
- 
-.akryl, .akvarell{
-    align-items: center;
-    text-align: center;
-}
+@media screen and (max-width: 500px) {
 
-.akryl img, .akvarell img {
-    max-width: 400px;
-}
+    .akryl,
+    .akvarell {
+        align-items: center;
+        text-align: center;
+    }
 
-table {
-    max-width: 380px;
-}
+    .akryl img,
+    .akvarell img {
+        max-width: 400px;
+    }
+
+    table {
+        max-width: 380px;
+    }
 
 }
